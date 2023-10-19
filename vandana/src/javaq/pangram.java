@@ -7,8 +7,8 @@ import java.util.Set;
 public class pangram {
 	public static void main(String args[]) {
 		String sentence;
-		Scanner sc= new Scanner(System.in);
-		sentence=sc.nextLine();
+		Scanner  sc = new Scanner(System.in);
+		sentence = sc.nextLine();
 	    Set<Character> s = new HashSet<>();
 	    for(int i=0;i<sentence.length();i++)
 	        s.add(sentence.charAt(i));
